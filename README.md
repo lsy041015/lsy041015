@@ -10,7 +10,6 @@
 여기 있는 프로젝트는 대부분 작업하다 부딪힌 불편이나 진입 장벽에서 시작했습니다.
 
 - 부품 하나 찾을 때마다 브라우저와 영어 데이터시트를 오가는 일 → **CircitHuB**
-- 로봇 팔을 코드 없이 움직여 보고 싶은 사람 → **Piper Block Coding**
 - Claude와 Codex 구독을 둘 다 쓰는데 한쪽 한도만 먼저 바닥나는 일 → **Orchestra**
 
 ---
@@ -46,29 +45,24 @@
       <p><sub>Python · PySide6 · Selenium · OpenCV · Tesseract · Ollama · Gemini</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/lsy041015/Piper_Block_Coding_Project"><img src="assets/projects/piper-block-coding.png" alt="Piper Block Coding"></a>
-      <p><b><a href="https://github.com/lsy041015/Piper_Block_Coding_Project">Piper Block Coding</a></b> — 블록을 끌어다 놓으면 Python이 만들어지고, Piper 6축 로봇 팔(또는 시뮬레이션)이 움직입니다.</p>
-      <p><sub>Python · Flask · Socket.IO · Blockly · Three.js · cannon.js</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/capstone-design-hanyang-university"><img src="assets/projects/capstone.png" alt="무인 세탁물 수령 시스템"></a>
       <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">무인 세탁물 수령 시스템</a></b> — 한양대 캡스톤 디자인. 옷과 신발을 보관하고 내어 주는 자동화 셀을 Blender로 설계·검증한 콘셉트.</p>
       <p><sub>Blender · 로봇 셀 설계 · 설계 검토</sub></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/ui-ux-skill"><img src="assets/projects/ui-ux-skill.png" alt="UI/UX Skill"></a>
       <p><b><a href="https://github.com/lsy041015/ui-ux-skill">UI/UX Skill</a></b> — macOS 설계 원칙을 바탕으로 어떤 프레임워크든 데스크톱 앱 UI/UX를 설계·검토하게 하는 에이전트 스킬.</p>
       <p><sub>Codex · Claude Code · Agent Skills</sub></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/Obsidian-Design"><img src="assets/projects/obsidian-design.png" alt="Obsidian Design"></a>
       <p><b><a href="https://github.com/lsy041015/Obsidian-Design">Obsidian Design</a></b> — 출처와 링크가 살아 있는, 어디서든 읽히는 Obsidian·Markdown 문서를 쓰게 하는 Codex 스킬.</p>
       <p><sub>Codex · Markdown · Obsidian</sub></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/relay"><img src="assets/projects/relay.png" alt="Relay"></a>
       <p><b><a href="https://github.com/lsy041015/relay">Relay</a></b> <sub>(지난 실험)</sub> — 메인 모델이 계획하고 고정된 구현자 하나가 코딩하던 Orchestra 이전의 실험. 지금은 Orchestra로 이어졌습니다.</p>
@@ -85,11 +79,6 @@
 - AI를 두 층으로 나눴습니다. 대화는 로컬 Ollama `gemma4:e4b`(비용·개인정보·오프라인), 데이터시트에서 고른 영역의 번역·요약만 클라우드 Gemini.
 - 메인 창 하나를 믹스인 9개(검색·부품·카테고리·채팅·공유·사이드바 등)로 나눠 조립해, 거대한 클래스 하나가 되는 것을 피했습니다.
 - 가격표 파서는 `$`·`₩`·`€`·`£`를 모두 알아보고, 사양 이름은 DigiKey의 한국어·영어 표기를 둘 다 받아들입니다.
-
-**Piper Block Coding**
-- 같은 블록 프로그램을 실제 로봇용 헤더나 DH 기구학 시뮬레이션 헤더와 붙여 실행합니다. 시뮬레이션은 계산한 자세를 HTTP로 서버에 되돌려 보냅니다.
-- 만들어진 코드는 실행 전에 두 번 걸러집니다. 위험한 토큰을 막는 패턴 16개와, 허용된 줄 형태만 통과시키는 목록 24개.
-- 3D 대시보드는 Three.js로 로봇 STL을 그리고, 링크마다 cannon.js 충돌체를 붙여 10 Hz로 갱신합니다.
 
 **무인 세탁물 수령 시스템**
 - 설계 검토 점수를 32점에서 74점으로 끌어올리며 고친 10가지를 그대로 기록했습니다. 옷 보관 칸을 10개에서 8개로 줄인 것도 그중 하나입니다.
@@ -115,8 +104,8 @@
     </td>
     <td valign="top" width="50%">
       <b>수치로 말하기</b><br>
-      README에는 확인한 것만 씁니다. 캡스톤의 자동 검사 177개, CircitHuB 테스트 276개 중 274개 통과(남은 2개는 저장소 설정 파일),
-      Piper 대시보드 10 Hz처럼, 숫자에는 어떻게 쟀는지와 아직 안 되는 것이 함께 붙어 있습니다.
+      README에는 확인한 것만 씁니다. 캡스톤의 자동 검사 177개, CircitHuB 테스트 276개 중 274개 통과(남은 2개는 저장소 설정 파일)처럼,
+      숫자에는 어떻게 쟀는지와 아직 안 되는 것이 함께 붙어 있습니다.
     </td>
   </tr>
 </table>

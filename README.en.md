@@ -10,7 +10,6 @@ At Hanyang University I build **robots**, **tools for hardware engineers**, and 
 Most projects here started from a friction I hit while working:
 
 - Jumping between a browser and English datasheets for every part → **CircitHuB**
-- Letting people move a robot arm without writing code → **Piper Block Coding**
 - Paying for both Claude and Codex while only one quota runs out → **Orchestra**
 
 ---
@@ -45,29 +44,24 @@ each bounded implementation task goes to a **Claude subagent** or a **Codex CLI 
       <p><sub>Python · PySide6 · Selenium · OpenCV · Tesseract · Ollama · Gemini</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/lsy041015/Piper_Block_Coding_Project"><img src="assets/projects/piper-block-coding.png" alt="Piper Block Coding"></a>
-      <p><b><a href="https://github.com/lsy041015/Piper_Block_Coding_Project">Piper Block Coding</a></b> — Drag blocks, get Python, and move a Piper 6-axis arm (or its simulation).</p>
-      <p><sub>Python · Flask · Socket.IO · Blockly · Three.js · cannon.js</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/capstone-design-hanyang-university"><img src="assets/projects/capstone.png" alt="Automated Unmanned Laundry Pickup System"></a>
       <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">Unmanned Laundry Pickup System</a></b> — Hanyang University capstone design: an automated cell that stores and hands out garments and shoes, designed and checked in Blender (a concept).</p>
       <p><sub>Blender · robot cell design · design review</sub></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/ui-ux-skill"><img src="assets/projects/ui-ux-skill.png" alt="UI/UX Skill"></a>
       <p><b><a href="https://github.com/lsy041015/ui-ux-skill">UI/UX Skill</a></b> — An agent skill for designing and reviewing desktop UI/UX on any framework, grounded in macOS principles.</p>
       <p><sub>Codex · Claude Code · Agent Skills</sub></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/Obsidian-Design"><img src="assets/projects/obsidian-design.png" alt="Obsidian Design"></a>
       <p><b><a href="https://github.com/lsy041015/Obsidian-Design">Obsidian Design</a></b> — A Codex skill for polished, portable Obsidian and Markdown documents with real sources and links.</p>
       <p><sub>Codex · Markdown · Obsidian</sub></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/relay"><img src="assets/projects/relay.png" alt="Relay"></a>
       <p><b><a href="https://github.com/lsy041015/relay">Relay</a></b> <sub>(archived)</sub> — The experiment before Orchestra: the main model plans, one fixed implementer codes. It continues as Orchestra.</p>
@@ -82,8 +76,6 @@ each bounded implementation task goes to a **Claude subagent** or a **Codex CLI 
 
 - **CircitHuB** splits AI in two: local Ollama `gemma4:e4b` for chat (cost, privacy, offline), cloud Gemini only for datasheet regions.
   Its main window is assembled from 9 mixins (search, parts, categories, chat, sharing, sidebar, …) instead of one giant class.
-- **Piper Block Coding** runs the same block program with either a real-robot header or a DH-kinematics simulation header that
-  posts its pose back to the server. Generated code passes 16 blocked patterns and a 24-form allow list before it runs.
 - **The laundry pickup cell** raised its design-review score from 32 to 74 with 10 recorded fixes, and its robot never grips
   fabric or shoes directly, only an adapter tab or a tray handle.
 - **UI/UX Skill** keeps each of its 6 rule modules under 300 characters, so an agent reads only what it needs.
