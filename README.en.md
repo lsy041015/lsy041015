@@ -45,8 +45,8 @@ each bounded implementation task goes to a **Claude subagent** or a **Codex CLI 
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/capstone-design-hanyang-university"><img src="assets/projects/capstone.png" alt="Automated Unmanned Laundry Pickup System"></a>
-      <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">Unmanned Laundry Pickup System</a></b> — Hanyang University capstone design: an automated cell that stores and hands out garments and shoes, designed and checked in Blender (a concept).</p>
-      <p><sub>Blender · robot cell design · design review</sub></p>
+      <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">Unmanned Laundry Pickup System</a></b> — Hanyang University capstone design. V2.0: a 24-hour unmanned pickup store (lobby, self-service laundry, robot cell, staff area) designed and checked on a 1:1 Blender timeline (a concept).</p>
+      <p><sub>Blender · process design · motion study</sub></p>
     </td>
   </tr>
   <tr>

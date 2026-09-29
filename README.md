@@ -46,8 +46,8 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/capstone-design-hanyang-university"><img src="assets/projects/capstone.png" alt="무인 세탁물 수령 시스템"></a>
-      <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">무인 세탁물 수령 시스템</a></b> — 한양대 캡스톤 디자인. 옷과 신발을 보관하고 내어 주는 자동화 셀을 Blender로 설계·검증한 콘셉트.</p>
-      <p><sub>Blender · 로봇 셀 설계 · 설계 검토</sub></p>
+      <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">무인 세탁물 수령 시스템</a></b> — 한양대 캡스톤 디자인. V2.0: 로비·셀프 빨래방·로봇 셀·직원 공간으로 된 24시 무인 세탁 수령소를 1:1 Blender 타임라인으로 설계·검증한 콘셉트.</p>
+      <p><sub>Blender · 공정 설계 · 모션스터디</sub></p>
     </td>
   </tr>
   <tr>
