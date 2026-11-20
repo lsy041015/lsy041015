@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.png" alt="LSY.KOR — 로봇, AI 에이전트 도구, 데스크톱 앱" width="100%">
+  <img src="assets/profile-banner.png" alt="LSY.KOR — 로봇, AI 에이전트 도구, 데스크톱 앱" width="560">
 </p>
 
 <p align="center"><b>한국어</b> · <a href="README.en.md">English</a></p>
@@ -12,7 +12,7 @@
 ## 요즘 제일 붙잡고 있는 것: Orchestra
 
 <p align="center">
-  <a href="https://github.com/lsy041015/orchestra"><img src="assets/projects/orchestra.png" alt="Orchestra" width="100%"></a>
+  <a href="https://github.com/lsy041015/orchestra"><img src="assets/projects/orchestra.png" alt="Orchestra" width="560"></a>
 </p>
 
 Claude Code 메인 세션이 계획과 리뷰를 맡고, 구현은 난이도에 맞춰 고른 Claude 서브에이전트나 Codex CLI 워커에게 넘기는 플러그인이에요.
