@@ -6,34 +6,22 @@
 
 ## Hi, I'm LSY.KOR
 
-At Hanyang University I build **robots**, **tools for hardware engineers**, and **tools that put AI coding agents to work**.
-Most projects here started from a friction I hit while working:
+I'm at Hanyang University, building robots, tools for hardware engineers, and tools that put AI coding agents to work.
+Most of what's here started because something annoyed me while I was working.
 
-- Jumping between a browser and English datasheets for every part → **CircitHuB**
-- Paying for both Claude and Codex while only one quota runs out → **Orchestra**
-- Subagents that use the priciest model even for easy work → **model-routing**
-
----
-
-## Main project: Orchestra
+## What I'm most into right now: Orchestra
 
 <p align="center">
   <a href="https://github.com/lsy041015/orchestra"><img src="assets/projects/orchestra.png" alt="Orchestra" width="100%"></a>
 </p>
 
-**The conductor plans. The right model plays.** A skill plugin where the Claude Code main session plans and reviews, and
-each bounded implementation task goes to a **Claude subagent** or a **Codex CLI worker** chosen per difficulty tier.
-
-- Workers show up in the task list with engine, model and effort, e.g. `[Codex gpt-6-luna/high] Task 3: …`.
-- After each Codex run a script checks mechanically whether files outside the allowed list changed; the main session reviews the real diff.
-- A recorded run: a web piano split into 3 tasks for 3 Codex workers (2 in parallel), 13 min 28 s of worker time.
-  Every worker said "done", the main-session review still found 5 issues, and each task needed one fix round.
+A plugin where the Claude Code main session plans and reviews, and implementation goes to a Claude subagent or a Codex CLI worker picked by difficulty.
+I pay for both Claude and Codex, and it bugged me that one quota always ran out first.
+Three Codex workers built the web piano below. They all said "done", and the main-session review still found five issues.
 
 <p align="center">
   <img src="https://github.com/lsy041015/orchestra/raw/main/docs/demo/piano/piano-demo.gif" alt="The web piano built by Orchestra workers playing Ode to Joy" width="560">
 </p>
-
----
 
 ## Projects
 
@@ -41,76 +29,46 @@ each bounded implementation task goes to a **Claude subagent** or a **Codex CLI 
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/CircitHuB"><img src="assets/projects/circithub.png" alt="CircitHuB"></a>
-      <p><b><a href="https://github.com/lsy041015/CircitHuB">CircitHuB</a></b> — DigiKey part search, AI datasheet analysis and LAN team sharing in one PySide6 desktop app.</p>
-      <p><sub>Python · PySide6 · Selenium · OpenCV · Tesseract · Ollama · Gemini</sub></p>
+      <p><b><a href="https://github.com/lsy041015/CircitHuB">CircitHuB</a></b> — Part search, AI datasheet analysis and team sharing in one desktop app.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/lsy041015/capstone-design-hanyang-university"><img src="assets/projects/capstone.png" alt="Automated Unmanned Laundry Pickup System"></a>
-      <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">Unmanned Laundry Pickup System</a></b> — Hanyang University capstone design. V2.0: a 24-hour unmanned pickup store (lobby, self-service laundry, robot cell, staff area) designed and checked on a 1:1 Blender timeline (a concept).</p>
-      <p><sub>Blender · process design · motion study</sub></p>
+      <a href="https://github.com/lsy041015/capstone-design-hanyang-university"><img src="assets/projects/capstone.png" alt="Unmanned Laundry Pickup System"></a>
+      <p><b><a href="https://github.com/lsy041015/capstone-design-hanyang-university">Unmanned Laundry Pickup System</a></b> — A capstone concept: a 24-hour laundry pickup store designed in Blender.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/ui-ux-skill"><img src="assets/projects/ui-ux-skill.png" alt="UI/UX Skill"></a>
-      <p><b><a href="https://github.com/lsy041015/ui-ux-skill">UI/UX Skill</a></b> — An agent skill for designing and reviewing desktop UI/UX on any framework, grounded in macOS principles.</p>
-      <p><sub>Codex · Claude Code · Agent Skills</sub></p>
+      <p><b><a href="https://github.com/lsy041015/ui-ux-skill">UI/UX Skill</a></b> — An agent skill that designs and reviews desktop UI on macOS principles.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/Obsidian-Design"><img src="assets/projects/obsidian-design.png" alt="Obsidian Design"></a>
-      <p><b><a href="https://github.com/lsy041015/Obsidian-Design">Obsidian Design</a></b> — A Codex skill for polished, portable Obsidian and Markdown documents with real sources and links.</p>
-      <p><sub>Codex · Markdown · Obsidian</sub></p>
+      <p><b><a href="https://github.com/lsy041015/Obsidian-Design">Obsidian Design</a></b> — A Codex skill for Obsidian and Markdown docs with real sources.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/relay"><img src="assets/projects/relay.png" alt="Relay"></a>
-      <p><b><a href="https://github.com/lsy041015/relay">Relay</a></b> <sub>(archived)</sub> — The experiment before Orchestra: the main model plans, one fixed implementer codes. It continues as Orchestra.</p>
-      <p><sub>Codex · Claude Code · Superpowers fork</sub></p>
+      <p><b><a href="https://github.com/lsy041015/relay">Relay</a></b> <sub>(archived)</sub> — The experiment before Orchestra, which it grew into.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/model-routing"><img src="assets/projects/model-routing.png" alt="model-routing"></a>
-      <p><b><a href="https://github.com/lsy041015/model-routing">model-routing</a></b> — A Claude Code plugin that sends each subagent task to Haiku, Sonnet, Opus or Fable at the right effort, by task type and difficulty.</p>
-      <p><sub>Claude Code · Plugin · Subagents</sub></p>
+      <p><b><a href="https://github.com/lsy041015/model-routing">model-routing</a></b> — A plugin that picks the right Claude model for each subagent task.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/model-routing-codex"><img src="assets/projects/model-routing-codex.png" alt="model-routing-codex"></a>
-      <p><b><a href="https://github.com/lsy041015/model-routing-codex">model-routing-codex</a></b> — The same routing rules for the Codex CLI: each task goes to gpt-6.1-terra, gpt-6.2-sol or gpt-6.2-astra.</p>
-      <p><sub>Codex CLI · Subagents</sub></p>
+      <p><b><a href="https://github.com/lsy041015/model-routing-codex">model-routing-codex</a></b> — The same rules, ported to the Codex CLI.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/lsy041015/motor-vibration-anomaly"><img src="assets/projects/motor-vibration-anomaly.png" alt="Motor Vibration Anomaly"></a>
-      <p><b><a href="https://github.com/lsy041015/motor-vibration-anomaly">Motor Vibration Anomaly</a></b> — Machine-learning course IC-PBL: 21 speed-aware features and an IsolationForest + OCSVM ensemble chosen by training-only CV (Test F1 0.850).</p>
-      <p><sub>Python · scikit-learn · Signal processing</sub></p>
+      <p><b><a href="https://github.com/lsy041015/motor-vibration-anomaly">Motor Vibration Anomaly</a></b> — A machine-learning course project on motor vibration anomalies (Test F1 0.850).</p>
     </td>
   </tr>
 </table>
 
----
+## A bit more
 
-## Stories behind the projects
-
-- **CircitHuB** splits AI in two: local Ollama `gemma4:e4b` for chat (cost, privacy, offline), cloud Gemini only for datasheet regions.
-  Its main window is assembled from 9 mixins (search, parts, categories, chat, sharing, sidebar, …) instead of one giant class.
-- **The laundry pickup cell** raised its design-review score from 32 to 74 with 10 recorded fixes, and its robot never grips
-  fabric or shoes directly, only an adapter tab or a tray handle.
-- **UI/UX Skill** keeps each of its 6 rule modules under 300 characters, so an agent reads only what it needs.
-
----
-
-## Tools I use
-
-| Area | Tools |
-|---|---|
-| Languages | Python, JavaScript, Bash |
-| Desktop & web | PySide6 (Qt), Flask, Flask-SocketIO, Blockly, Three.js, cannon.js |
-| Vision & documents | OpenCV, PyMuPDF, Tesseract OCR |
-| AI | Claude Code, Codex CLI, Ollama (Gemma), Gemini API |
-| Robots & 3D | Piper 6-axis arm (CAN), Blender, UR5 model |
-| Dev tools | Git, GitHub Actions, Node.js |
-
----
-
-<p align="center"><sub>This profile and every repository banner come from one generator: neon signs on black, each repository with its own colour and small motif.</sub></p>
+I usually split work so the main session plans and reviews and workers implement. A worker's "done" still gets checked against the diff and test output, and I try to put only checked numbers in my READMEs.
+Mostly Python, PySide6, OpenCV, Blender, Claude Code and the Codex CLI.
