@@ -11,6 +11,7 @@ Most projects here started from a friction I hit while working:
 
 - Jumping between a browser and English datasheets for every part → **CircitHuB**
 - Paying for both Claude and Codex while only one quota runs out → **Orchestra**
+- Subagents that use the priciest model even for easy work → **model-routing**
 
 ---
 
@@ -67,6 +68,23 @@ each bounded implementation task goes to a **Claude subagent** or a **Codex CLI 
       <p><b><a href="https://github.com/lsy041015/relay">Relay</a></b> <sub>(archived)</sub> — The experiment before Orchestra: the main model plans, one fixed implementer codes. It continues as Orchestra.</p>
       <p><sub>Codex · Claude Code · Superpowers fork</sub></p>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lsy041015/model-routing"><img src="assets/projects/model-routing.png" alt="model-routing"></a>
+      <p><b><a href="https://github.com/lsy041015/model-routing">model-routing</a></b> — A Claude Code plugin that sends each subagent task to Haiku, Sonnet, Opus or Fable at the right effort, by task type and difficulty.</p>
+      <p><sub>Claude Code · Plugin · Subagents</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lsy041015/model-routing-codex"><img src="assets/projects/model-routing-codex.png" alt="model-routing-codex"></a>
+      <p><b><a href="https://github.com/lsy041015/model-routing-codex">model-routing-codex</a></b> — The same routing rules for the Codex CLI: each task goes to gpt-6.1-terra, gpt-6.2-sol or gpt-6.2-astra.</p>
+      <p><sub>Codex CLI · Subagents</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lsy041015/motor-vibration-anomaly"><img src="assets/projects/motor-vibration-anomaly.png" alt="Motor Vibration Anomaly"></a>
+      <p><b><a href="https://github.com/lsy041015/motor-vibration-anomaly">Motor Vibration Anomaly</a></b> — Machine-learning course IC-PBL: 21 speed-aware features and an IsolationForest + OCSVM ensemble chosen by training-only CV (Test F1 0.850).</p>
+      <p><sub>Python · scikit-learn · Signal processing</sub></p>
+    </td>
   </tr>
 </table>
 
@@ -95,4 +113,4 @@ each bounded implementation task goes to a **Claude subagent** or a **Codex CLI 
 
 ---
 
-<p align="center"><sub>This profile and every repository banner come from one generator; each repository gets its own small motif.</sub></p>
+<p align="center"><sub>This profile and every repository banner come from one generator: neon signs on black, each repository with its own colour and small motif.</sub></p>
