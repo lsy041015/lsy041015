@@ -11,6 +11,7 @@
 
 - 부품 하나 찾을 때마다 브라우저와 영어 데이터시트를 오가는 일 → **CircitHuB**
 - Claude와 Codex 구독을 둘 다 쓰는데 한쪽 한도만 먼저 바닥나는 일 → **Orchestra**
+- 쉬운 일에도 가장 비싼 모델을 쓰게 되는 서브에이전트 → **model-routing**
 
 ---
 
@@ -67,6 +68,23 @@
       <a href="https://github.com/lsy041015/relay"><img src="assets/projects/relay.png" alt="Relay"></a>
       <p><b><a href="https://github.com/lsy041015/relay">Relay</a></b> <sub>(지난 실험)</sub> — 메인 모델이 계획하고 고정된 구현자 하나가 코딩하던 Orchestra 이전의 실험. 지금은 Orchestra로 이어졌습니다.</p>
       <p><sub>Codex · Claude Code · Superpowers 포크</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lsy041015/model-routing"><img src="assets/projects/model-routing.png" alt="model-routing"></a>
+      <p><b><a href="https://github.com/lsy041015/model-routing">model-routing</a></b> — 서브에이전트 작업을 종류와 난이도에 따라 Haiku·Sonnet·Opus·Fable 중 알맞은 모델과 추론 수준으로 보내는 Claude Code 플러그인.</p>
+      <p><sub>Claude Code · Plugin · Subagents</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lsy041015/model-routing-codex"><img src="assets/projects/model-routing-codex.png" alt="model-routing-codex"></a>
+      <p><b><a href="https://github.com/lsy041015/model-routing-codex">model-routing-codex</a></b> — 같은 규칙을 Codex CLI로 옮긴 버전. 작업마다 gpt-6.1-terra·gpt-6.2-sol·gpt-6.2-astra 중 하나를 고릅니다.</p>
+      <p><sub>Codex CLI · Subagents</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lsy041015/motor-vibration-anomaly"><img src="assets/projects/motor-vibration-anomaly.png" alt="모터 진동 이상 탐지"></a>
+      <p><b><a href="https://github.com/lsy041015/motor-vibration-anomaly">모터 진동 이상 탐지</a></b> — 기계학습론 IC-PBL. 회전속도를 고려한 특징 21개와 IsolationForest·OCSVM 앙상블, Training만 쓰는 교차검증으로 고른 모델(Test F1 0.850).</p>
+      <p><sub>Python · scikit-learn · 신호처리</sub></p>
     </td>
   </tr>
 </table>
@@ -125,4 +143,4 @@
 
 ---
 
-<p align="center"><sub>이 프로필과 각 저장소의 배너는 같은 생성기로 만들었습니다. 저장소마다 오선·회로·블록·옷걸이 같은 작은 무늬가 다릅니다.</sub></p>
+<p align="center"><sub>이 프로필과 각 저장소의 배너는 같은 생성기로 만든 검은 바탕 네온 사인입니다. 저장소마다 네온 색과 오선·회로·블록·옷걸이 같은 작은 무늬가 다릅니다.</sub></p>
