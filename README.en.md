@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.png" alt="LSY.KOR — robots, AI agent tools, desktop apps" width="100%">
+  <img src="assets/profile-banner.png" alt="LSY.KOR — robots, AI agent tools, desktop apps" width="560">
 </p>
 
 <p align="center"><a href="README.md">한국어</a> · <b>English</b></p>
@@ -12,7 +12,7 @@ Most of what's here started because something annoyed me while I was working.
 ## What I'm most into right now: Orchestra
 
 <p align="center">
-  <a href="https://github.com/lsy041015/orchestra"><img src="assets/projects/orchestra.png" alt="Orchestra" width="100%"></a>
+  <a href="https://github.com/lsy041015/orchestra"><img src="assets/projects/orchestra.png" alt="Orchestra" width="560"></a>
 </p>
 
 A plugin where the Claude Code main session plans and reviews, and implementation goes to a Claude subagent or a Codex CLI worker picked by difficulty.
